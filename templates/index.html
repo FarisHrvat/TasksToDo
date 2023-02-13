@@ -4,6 +4,7 @@
 
 {% block content %}
   <h1>Task App</h1>
+  <link rel="stylesheet" type="text/css" href="/static/style.css">
   <form action="/add" method="post">
     <input type="date" name="date">
     <input type="text" name="task">
@@ -18,3 +19,6 @@
     {% endfor %}
   </ul>
 {% endblock %}
+
+
+
